@@ -1,5 +1,5 @@
 {
-  "name": "@shhdev/vscode-extension",
+  "name": "shh",
   "displayName": "shh",
   "description": "Support for .shh files",
   "version": "1.0.0",
