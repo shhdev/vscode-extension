@@ -1,0 +1,39 @@
+{
+  "name": "@shhdev/vscode-extension",
+  "displayName": "shh",
+  "description": "Support for .shh files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "yaml",
+        "aliases": [
+          "shh",
+          "Shh",
+          "shh.dev",
+          "ShhDev",
+          "shh dev",
+          "Shh Dev"
+        ],
+        "extensions": [
+          ".shh",
+          ".shh.template"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "shh",
+        "scopeName": "source.shh",
+        "path": "./syntaxes/shh.tmLanguage.json"
+      }
+    ]
+  }
+}
