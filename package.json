@@ -1,6 +1,7 @@
 {
   "name": "shh",
   "displayName": "shh",
+  "publisher": "shh",
   "description": "Support for .shh files",
   "version": "1.0.0",
   "repository": {
