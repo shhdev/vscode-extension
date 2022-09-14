@@ -8,6 +8,10 @@ Adds support for `.shh` files by mapping them to `yaml`.
 
 ## Release Notes
 
+### 1.0.1
+
+Adds extension icon
+
 ### 1.0.0
 
 Initial release of extension
